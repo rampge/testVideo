@@ -1,0 +1,80 @@
+body{
+	padding:0px;
+	margin:0px;
+	max-width: 1010px;
+}
+
+.container-fluid{
+	width:1010px;
+	height:600px;
+	padding:0px;
+	margin:0px;
+}
+
+.row-fluid .span2{
+	width:210px;
+	height:600px;
+}
+.row-fluid .span10{	
+	width:800px;
+	height:600px;
+	margin:0px;
+	background-color: #FFFFFF;
+}
+
+div.top{
+	height:50px;
+	background:url(../img/bg.gif) 0 no-repeat;
+}
+
+div.flashContent{
+
+}
+
+.span2{
+	background-color:#F5F5F5;
+	border:1px solid #E3E3E3;
+}
+
+ul.nav.nav-list{
+	font-size: 0.8em;
+	max-width: 210px;
+}
+
+li.nav-header{
+	font-size:10em;
+}
+
+ul.nav.nav-list li{
+	border-bottom: 1px solid #E1E1E1;
+}
+
+span.label{
+	padding:0px;
+	padding-top:3px;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+.nav-list li a{
+	padding-top:3px;
+	padding-left:3px;
+	padding-bottom:3px;
+	padding-right:0px;
+}
+
+.nav.nav-pills.nav-stacked{
+	font-size: 0.8em;
+}
+
+.nav.nav-list{
+	
+}
+
+.icon-search{
+	margin-top:-1px;
+}
+
+.divider{
+	margin:0px;
+}

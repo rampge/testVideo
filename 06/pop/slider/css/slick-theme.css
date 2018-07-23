@@ -1,0 +1,248 @@
+@charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list {
+    background: #fff url('../../common/images/control/ajax-loader.gif') center center no-repeat;
+}
+
+/* Arrows */
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+    opacity: 1;
+}
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+    left: -25px;
+}
+
+[dir='rtl'] .slick-prev {
+    right: -25px;
+    left: auto;
+}
+
+.slick-prev:before {
+    content: '←';
+}
+
+[dir='rtl'] .slick-prev:before {
+    content: '→';
+}
+
+.slick-next {
+    right: -25px;
+}
+
+[dir='rtl'] .slick-next {
+    right: auto;
+    left: -25px;
+}
+
+.slick-next:before {
+    content: '→';
+}
+
+[dir='rtl'] .slick-next:before {
+    content: '←';
+}
+
+/* Dots */
+.slick-dotted.slick-slider {
+    margin-bottom: 30px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    outline: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: #fff;
+    border: 1px solid #45c2f4;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+    outline: none;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+    opacity: 1;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #45c2f4;
+}
+
+/* 정리하기 페이지 이동 추가 부분  */
+.slick-dots li button {
+    background-color: #127690;
+    border: 1px solid #127690;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #d49831;
+	border: 1px solid #d49831;
+}
+
+.summary-content .summary-pager-wrap {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+
+.slick-dots {
+    position: static;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    height:28px;
+    list-style: none;
+    text-align: center;
+    background-color:#ffcf68;
+    vertical-align: top;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+.slick-prev,
+.slick-next {
+    position: static;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    z-index: 99;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    margin: 0;
+    background-image: url('../../common/images/layout/button/btn_tab_next.png') !important;
+    background-repeat: no-repeat;
+    vertical-align: top;
+}
+
+.summary-content .slick-prev {
+    margin-right:-8px;
+    background-position: 0 0px;
+}
+
+.summary-content .slick-prev:hover{
+    background-position: 0 -30px
+}
+
+.summary-content .slick-next {
+    margin-left:-8px;
+    background-position: 0 -60px;
+}
+.summary-content .slick-next:hover {
+    background-position: 0 -90px
+}
+
+.summary-content .slick-disabled {
+    cursor: default;
+}
+.summary-content .slick-prev.slick-disabled:hover {
+    background-position: 0 0px;
+}
+.summary-content .slick-next.slick-disabled:hover {
+    background-position: 0 -60px;
+}
+
+.summary-content .slick-next:before, .summary-content .slick-prev:before {
+    display: none
+}
+
+.summary-content .summary-pager {
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+.summary-content .summary-pager li {
+    display: inline-block;
+    padding: 0px 4px;
+}

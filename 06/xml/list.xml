@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<list>
+  <index>
+    <main page="1" title="시작하기">
+      <sub page="1">Intro</sub>
+      <sub page="2">오늘의 학습</sub>
+      <sub page="3">학습목표</sub>
+    </main>
+    <main page="4" title="학습하기">
+      <sub page="4">UI 설계 용어</sub>
+      <sub page="5">Wireframe, Mockup  실습</sub>
+    </main>
+    <main page="6" title="마무리하기">
+      <sub page="6">Jump up!</sub>
+      <sub page="7">평가하기</sub>
+    </main>
+    <main page="8" title="정리하기">
+      <sub page="8">핵심정리</sub>
+      <sub page="9">마무리하기</sub>
+    </main>
+  </index>
+</list>

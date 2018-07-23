@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<event>
+
+  <!-- 강조빨간색칠하기-->
+  <!-- &lt;span style="color:#f7b66a"&gt;&lt;u&gt;않은&lt;&#47;span&gt;&lt;&#47;u&gt; -->
+  <!-- 내려쓰기 -->
+  <!-- &lt;br&gt; -->
+  <quiz flag="7" >
+      <page num="1" answer="4" type="multiple">
+          <question>
+            <alternate>문제일번 선과 뼈대를 만드는 것으로 GUI 적인 요소를 생략하고 시각적인 프레임 워크를 뜻하는 용어로 알맞은 것은?</alternate>
+            <symbol>Q1</symbol>
+            <text>선과 뼈대를 만드는 것으로 GUI 적인 요소를 생략하고 &lt;br&gt; 시각적인  프레임 워크를 뜻하는 용어로 알맞은 것은?</text>
+          </question>
+
+          <feedback>
+            <alternate>정답은 사번입니다. 버튼 배치, 페이지 요소의 계층구조 등을 나타내는 방법은 Wireframe이라고 합니다.</alternate>
+            <answer>
+                <!-- <symbol>정답 &lt;span style="font-size:20px"&gt;및&lt;&#47;span&gt; 해설</symbol> -->
+                <symbol></symbol>
+                <text>4</text>
+            </answer>
+            <explain>
+                <symbol></symbol>
+                <text>버튼 배치, 페이지 요소의 계층구조 등을 나타내는 방법은 Wireframe이라고 합니다.</text>
+            </explain>
+          </feedback>
+
+          <example num="1">
+                <alternate>보기 일번 Sketch</alternate>
+                <symbol>1</symbol>
+                <text>Sketch</text>
+            </example>
+            <example num="2">
+                <alternate>보기 이번 Mockup</alternate>
+                <symbol>2</symbol>
+                <text>Mockup</text>
+            </example>
+            <example num="3">
+                <alternate>보기 삼번 Prototype</alternate>
+                <symbol>3</symbol>
+                <text>Prototype</text>
+            </example>
+            <example num="4">
+                <alternate>보기 사번 Wireframe</alternate>
+                <symbol>4</symbol>
+                <text>Wireframe</text>
+            </example>
+      </page>
+
+      <page num="2" answer="4" type="multiple">
+          <question>
+            <alternate>문제 이번 Mockup에 대한 설명으로 틀린 것은?</alternate>
+              <symbol>Q2</symbol>
+              <text>Mockup에 대한 설명으로 &lt;span style="color:#f7b66a"&gt;&lt;u&gt;틀린&lt;&#47;span&gt;&lt;&#47;u&gt; 것은?</text>
+          </question>
+
+          <feedback>
+              <alternate>정답은 사번입니다 다양한 인터랙션을 이용하여 동적인 형태로 표현하는 방법은 Prototype입니다.</alternate>
+              <answer>
+                  <symbol></symbol>
+                  <text>4</text>
+              </answer>
+              <explain>
+                  <symbol></symbol>
+                  <text>다양한 인터랙션을 이용하여 동적인 형태로 표현하는 방법은 Prototype입니다.</text>
+              </explain>
+          </feedback>
+
+          <example num="1">
+              <alternate>보기 일번 실물과 흡사한 정적인 형태의 모형이다.</alternate>
+              <symbol>1</symbol>
+              <text>실물과 흡사한 정적인 형태의 모형이다.</text>
+          </example>
+          <example num="2">
+              <alternate>보기 이번 서비스 개발 전에 결과물을 그려보는 것을 의미한다.</alternate>
+              <symbol>2</symbol>
+              <text>서비스 개발 전에 결과물을 그려보는 것을 의미한다.</text>
+          </example>
+          <example num="3">
+              <alternate>보기 삼번 기획자나 디자이너의 아이디어를 그려봄으로써 서비스를 더욱 명확하게 정의한다.</alternate>
+              <symbol>3</symbol>
+              <text>기획자나 디자이너의 아이디어를 그려봄으로써 서비스를&lt;br&gt; 더욱 명확하게 정의한다.</text>
+          </example>
+          <example num="4">
+              <alternate>보기 사번 다양한 인터랙션을 이용한다.</alternate>
+              <symbol>4</symbol>
+              <text>다양한 인터랙션을 이용한다.</text>
+          </example>
+      </page>
+
+      <page num="3" answer="4" type="multiple">
+        <question>
+          <alternate>문제 삼번 다음 설명이 지칭하는 UI 설계 단계는?</alternate>
+          <symbol>Q3</symbol>
+          <text>다음 설명이 지칭하는 UI 설계 단계는?</text>
+        </question>
+        <direction>
+          <alternate>다자인이 제작되기 전에 제작되는 화면 설계의 기초적인 단계로 UI 중심의 화면 레이아웃을 설계하는 단계</alternate>
+          <text>다자인이 제작되기 전에 제작되는 화면 설계의 기초적인 단계로&lt;br&gt;UI 중심의 화면 레이아웃을 설계하는 단계</text>
+        </direction>
+
+
+
+          <feedback>
+              <alternate>정답은 사번입니다. UI 중심의 화면 레이아웃 설계 방법은 Wireframe에 대한 설명으로 선과 뼈대를 이용하여 구성합니다.</alternate>
+              <answer>
+                  <symbol></symbol>
+                  <text>4</text>
+              </answer>
+              <explain>
+                  <symbol></symbol>
+                  <text>UI 중심의 화면 레이아웃 설계 방법은 Wireframe에 대한 설명으로 선과 뼈대를&lt;br&gt; 이용하여 구성합니다.</text>
+              </explain>
+          </feedback>
+
+          <example num="1">
+              <alternate>보기 일번 Sketch</alternate>
+              <symbol>1</symbol>
+              <text>Sketch</text>
+          </example>
+          <example num="2">
+              <alternate>보기 이번 Mockup</alternate>
+              <symbol>2</symbol>
+              <text>Mockup</text>
+          </example>
+          <example num="3">
+              <alternate>보기 삼번 Prototype</alternate>
+              <symbol>3</symbol>
+              <text>Prototype</text>
+          </example>
+          <example num="4">
+              <alternate>보기 사번 Wireframe</alternate>
+              <symbol>4</symbol>
+              <text>Wireframe</text>
+          </example>
+
+      </page>
+  </quiz>
+
+  <!-- <quiz flag="6" >
+      <page num="1" answer="1" type="half">
+          <question>
+              <alternate>여기서 잠깐! 돌발퀴즈! 오존층의 형성으로 지구에서 육상식물이 출현할 수 있게 되었다.이것은 맞는 문장일까요? 틀린 문장일까요? 맞으면 오, 틀리면 엑스를 선택해 주세요</alternate>
+              <symbol>&lt;div&gt;&lt;strong&gt;돌&lt;/strong&gt;발&lt;/div&gt;&lt;div&gt;퀴즈&lt;/div&gt;</symbol>
+              <text>오존층의 형성으로 지구에서 육상식물이 출현할 수 있게 되었다</text>
+          </question>
+
+          <feedback>
+              <alternate>정답은 O입니다. 상층 대기에 오존층이 존재하지 않으면 자외선은 지표까지 도달하게 되는데, 이는 생명체 생존에 매우 치명적일 수 있습니다. 즉, 오존층은 해양 바깥에서 생명이 존재하기 이전에 발생했음을 알 수 있습니다</alternate>
+              <answer>
+                  <symbol>정답</symbol>
+                  <text>O</text>
+              </answer>
+              <explain>
+                  <symbol>해설</symbol>
+                  <text>상층 대기에 오존층이 존재하지 않으면 자외선은 지표까지 도달하게 되는데, 이는 생명체 생존에 매우 치명적일 수 있습니다. 즉, 오존층은 해양 바깥에서 생명이 존재하기 이전에 발생했음을 알 수 있습니다</text>
+              </explain>
+          </feedback>
+
+          <example num="1">
+              <alternate>보기 일번 오</alternate>
+              <symbol></symbol>
+              <text>O</text>
+          </example>
+          <example num="2">
+              <alternate>보기 이번 엑스</alternate>
+              <symbol></symbol>
+              <text>X</text>
+          </example>
+      </page>
+  </quiz> -->
+</event>

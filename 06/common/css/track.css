@@ -1,0 +1,42 @@
+.scriptWrap {
+  position: absolute;
+  background: hsla(0, 10%, 10%, 0.9);
+  font-family: nanum_barun_gothic_light;
+  font-size: 17px;
+  width: 1000px;
+  bottom: 42px;
+  height: 85px;
+  top: -91px;
+  left: 0;
+  z-index: 190;
+  color: #ffffff;
+  border-radius: 7px;
+  line-height: 135%;
+  letter-spacing: 1px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: none;
+}
+
+.scriptWrap > .part{
+  margin: 10px 0px 0px 1px;
+  display: block;
+  cursor: default;
+}
+.scriptWrap > .part:hover{
+  background: none;
+}
+.scriptWrap > .part > .teller{
+  position: relative;
+  width: 322px;
+  top: 3px;
+  padding-bottom: 0px;
+  height: auto;
+  margin-left: 33px;
+}
+.scriptWrap > .part > .track{
+  position: relative;
+  left: 125px;
+  width: 83%;
+  bottom: 20px;
+}

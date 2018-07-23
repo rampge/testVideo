@@ -1,0 +1,108 @@
+html {
+	overflow: hidden;
+}
+body {
+	padding:0px;
+	margin: 0px;
+}
+
+.menu {
+	height: 600px;
+	width: 160px;
+	float: left;
+}
+
+.contentWrap {
+	width: 800px;
+	height: 600px;			
+	margin-left: 160px;
+}
+
+.index {
+	margin: 0px;
+	padding: 0px;
+	max-height: 600px;
+	overflow: auto;
+	list-style: none;
+	
+	font-family:'나눔고딕', 'Dotum';
+	line-height: 18px;	
+}
+
+.main_menu {
+	padding: 5px 0px;
+	background: #4f566a;
+	
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	text-indent: 10px;	
+	border-bottom: 1px solid #cacaca;
+	cursor: pointer;
+}
+
+.main_menu:hover {
+	background:#1c4889;
+}
+
+li.main_active {
+	background:#1c4889;
+}
+
+.sub_menu {
+	padding: 5px 0px;
+	
+	text-indent: 3px;	
+	line-height: 22px;
+	cursor: pointer;
+}
+
+.sub_menu:hover {
+	background:#ddd;
+}
+
+.sub_title {
+	margin: 0px 0px 0px 25px;
+	padding: 0px;
+
+	color: #0072bc;
+	font-size: 12px;
+}
+
+.icon {
+	float: left;
+	background: #ed1c24;
+	margin-left: 10px;
+
+	color: #fff;
+	font-size: 11px;
+	text-align: center;
+	text-indent: 0em;	
+}
+
+.learning {
+	background: #00a651;
+}
+
+.top{
+	height:40px;
+	background-color:#333;
+	color:#FFF;
+	line-height:40px;
+	font-size:13px;
+}
+
+#title{	
+	padding-left:180px;
+}
+
+.list{
+	background-color:#666;
+	width:160px;
+	height:30px;
+	top:10px;
+	line-height:30px;
+	border-radius:10px 10px 0px 0px;
+	text-align:center;
+	position:absolute;
+}

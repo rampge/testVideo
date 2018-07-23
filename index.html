@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="author" content="RussianBlue">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<link rel="stylesheet" href="./idx_common/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./idx_common/css/russianblue.css">
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+	<title></title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="top-container">
+		</div>
+		<div class="container-fluid">
+	  	<div class="row-fluid">
+	  		<div class="span1">
+	  		</div>
+		    <div class="span10">
+		    	<div class="alert alert-logo">
+		    		<!--<img src="./idx_common/idx_img/logo.png"/>-->
+		    	</div>
+		    	<div class="title-header">
+						<span class="sp_title"></span>
+						<span class="sub_title"></span>
+					</div>
+
+	      	<div class="list">
+			      <table class="table table-striped table-hover" id="example">
+		          <thead>
+		            <tr>
+		              <th class="t-tac">차시명</th>
+		              <th class="t-tac"></th>
+		            </tr>
+		          </thead>
+		          <tbody class="tableList">
+
+		          </tbody>
+		        </table>
+		       </div>
+
+	        <div class="popup-container">
+	        	<div class="pop-modal-btn">
+	        		<button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#viewContentModal">컨텐츠가 보이지 않을 때</button>
+
+	        		<button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#viewPopupModal">팝업 차단 기능 해제</button>
+						 </div>
+					</div>
+
+		    </div>
+		    <div class="span1">
+	  		</div>
+		  </div>
+	  </div>
+	</div>
+
+	<!-- View Content Modal -->
+	<div id="viewContentModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="viewContentModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+			    <h4 id="viewContentModalLabel"><div class="alert alert-warning">컨텐츠가 보이지 않을 때</div></h4>
+			  </div>
+			  <div class="modal-body">
+			    <ul class="bottom-list">
+		    		<li>Flash Player 다운로드 <a class="btn btn-danger btn-xs" href="http://www.adobe.com/go/getflashplayer_kr" target="_blank" title="Flash Player Download">보기</a></li>
+
+		    		<li>Flash Player 전역 보안 설정 방법 <a href="#viewPlayerSecurity" role="button" class="btn btn-danger btn-xs" data-toggle="modal" data-dismiss="modal">보기</a></li>
+
+		    		<li>Flash Player 전역보안 설정 사이트 <a class="btn btn-danger btn-xs" href="http://www.macromedia.com/support/documentation/kr/flashplayer/help/settings_manager04.html" target="_blank" title="Flash Player 전역 보안 설정 관리자">보기</a></li>
+		    	</ul>
+			  </div>
+			  <div class="modal-footer">
+			    <button class="btn btn-primary btn-sm" data-dismiss="modal" aria-hidden="true">닫기</button>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+	<!-- View Popup Modal -->
+
+	<div id="viewPopupModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="viewContentModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+			    <h4 id="viewContentModalLabel">
+			    	<div class="alert alert-warning">팝업 차단 기능 해제</div>
+			    </h4>
+			  </div>
+			  <div class="modal-body">
+			    <ul class="bottom-list">
+		    		<li>인터넷 익스플로러의 팝업 차단 기능을 해제하여 주십시오. </li>
+		    		<li><p class="text text-error">도구→팝업 차단→팝업 차단 설정 <span class="label label-primary">중요</span></p> </li>
+		    		<li>구글툴바, 야후툴바 등의 툴바 프로그램에서 팝업 차단 기능을 해제하여 주십시오.</li>
+		    	</ul>
+			  </div>
+			  <div class="modal-footer">
+			    <button class="btn btn-primary btn-sm" data-dismiss="modal" aria-hidden="true">닫기</button>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+	<div id="viewPlayerSecurity" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="viewContentModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div id="help-container">
+					<div id="page1" class="page">
+						<div class="title">
+							<div class="alert alert-danger">Flash Player 전역보안설정 시작하기</div>
+						</div>
+						<div class="help-pop-container">
+							<span class="label label-primary top">전역보안설정</span>
+							<div class="body-container">
+								<p>일부 웹사이트의 경우 이전 보안 시스템을 사용하여 다른 사이트의 정보에 엑세스 할 수 있습니다.
+								  이러한 것은 일반적으로 위험성이 적지만 이전 보안시스템을 사용하여
+									인증되지 않은 정보를 획득할 수 있으므로 주의해야 합니다.</p>
+								<p>때문에 Flash Player에서는 로컬 시스템에서 인터넷으로 정보를 주고 받을 때, 또는 특정 웹사이트에서 이전 보안 시스템을 사용하여 정보에 엑세스하려고 시도할 때 이용자의 보안 설정을 요구합니다.</p>
+
+								<p class="text-error"> 로컬 시스템에 위치한 테스트용 콘텐츠에서는 로컬 시스템과 인터넷(웹 브라우져)으로의 정보 교환을 시도하기 때문에 Flash Player의 전역 보안 설정 패널에서 해당 콘텐츠의 위치를 허용하지 않으면 일부 기능의 사용에 대해 제한을 받으므로 본 설명에 따라 본 콘텐츠의 위치에 대한 Flash Player의 전역 보안 설정을 허용해 주시기 바랍니다.</p>
+							</div>
+						</div>
+					</div>
+
+					<div id="page2" class="page">
+						<div class="title">
+							<div class="alert alert-danger">Flash Player 전역보안설정</div>
+						</div>
+						<div class="help-pop-container">
+							<span class="label label-primary top">보안설정 1</span>
+							<div class="body-container">
+								<p>로컬 시스템의 플래시 무비에서 인터넷(웹 브라우저)으로 통신을 시도할 때 아래와 같은 경고창이 뜹니다.</p>
+								<p>이때 <span class="label label-warning">설정</span>버튼을 누르면 Flash Player 설정 관리자 사이트로 이동을 합니다.</p>
+								<p>또는 직접 주소를 입력하여 Flash Player 설정 관리자 사이트로 이동할 수 있습니다</p>
+								<p><a class="flashSite" href="http://www.macromedia.com/support/documentation/kr/flashplayer/help/settings_manager04.html">전역보안 설정 사이트로 이동하기</a></p>
+								<p class="player-img"><img src="./idx_common/idx_img/player1.png" class="img-rounded"/></p>
+							</div>
+						</div>
+					</div>
+
+					<div id="page3" class="page">
+						<div class="title">
+							<div class="alert alert-danger">Flash Player 전역보안설정</div>
+						</div>
+						<div class="help-pop-container">
+							<span class="label label-primary top">보안설정 2</span>
+							<div class="body-container">
+								<p>아래 그림은 Flash Player 설정관리자 전역보안 설정 패널입니다.</p>
+
+								<p>이 곳에서 Flash Player의 전역보안 설정을
+									<span class="label label-success">항상 묻기</span>
+									<span class="label label-warning">항상 허용</span>
+									<span class="label label-warning">항상 거부</span>
+									세 가지로 설정 할 수 있습니다. 기본값은 <span class="label label-warning">항상 묻기</span>로 되어 있습니다.
+								</p>
+
+								<p>이곳에서 <span class="label label-success">항상 허용</span>으로 설정하면 이후에 또 다시 설정할 필요가 없습니다.</p>
+								<p class="player-img"><img src="./idx_common/idx_img/player2.png" class="img-rounded"/></p>
+							</div>
+						</div>
+					</div>
+
+					<div id="page4" class="page">
+						<div class="title">
+							<div class="alert alert-danger">Flash Player 전역보안설정</div>
+						</div>
+						<div class="help-pop-container">
+							<span class="label label-primary top">보안설정 3-1</span>
+							<div class="body-container">
+								<p>1. <span class="label label-success">항상 허용</span>을 선택한 경우</p>
+
+								<p class="p-body"><span class="label label-success">항상 허용</span>을 선택하면 사용자는 모든 Flash를 신뢰하며 보안 관련 팝업 메세지가 나타나지 않기를 원하는 것으로 인식하며, 보안 팝업 질문은 다시 표시되지 않습니다.</p>
+
+								<p class="p-body"><span class="label label-success">항상 허용</span>으로 선택하면 Flash Player 전역보안 설정이 완료되며 모든 웹브라우저를 종료하고 다시 시작합니다.
+								<p class="player-img"><img src="./idx_common/idx_img/player3.png" class="img-rounded"/></p>
+							</div>
+						</div>
+					</div>
+
+					<div id="page5" class="page">
+						<div class="title">
+							<div class="alert alert-danger">Flash Player 전역보안설정</div>
+						</div>
+						<div class="help-pop-container">
+							<span class="label label-primary top">보안설정 3-2</span>
+							<div class="body-container">
+								<p>2. <span class="label label-warning">항상 묻기</span>을 선택한 경우</p>
+
+								<p class="p-body"><span class="label label-warning">항상 묻기</span>를 선택하면 Flash Player가 신뢰할 수 있는 사이트나 파일 및 폴더를 지정해 주어야 합니다.
+								 우측 콤보박스의 키를 누르면 나오는 리스트에서 추가 버튼을 클릭하십시오.</p>
+
+								<p class="player-img"><img src="./idx_common/idx_img/player4.png" class="img-rounded"/></p>
+							</div>
+						</div>
+					</div>
+
+					<div id="page6" class="page">
+						<div class="title">
+							<div class="alert alert-danger">Flash Player 전역보안설정</div>
+						</div>
+						<div class="help-pop-container">
+							<span class="label label-primary top">보안설정 4</span>
+							<div class="body-container">
+								<p>2. <span class="label label-warning">항상 묻기</span>을 선택한 경우</p>
+
+								<p class="p-body">신뢰할 위치를 지정하는 팝업이 뜨게 되면 신뢰할 수 있는 파일 또는 폴더를 지정해 줍니다.
+									파일 찾아보기를 통해 파일을 지정하게 되면 해당 파일에서만 보안 설정이 적용되고, 폴더 찾아보기를 통해 폴더를 지정하게 되면 해달 폴더내의 모든 파일 및 폴더에 보안 설정이 적용 됩니다.</p>
+
+								<p class="player-img"><img src="./idx_common/idx_img/player5.png" class="img-rounded"/></p>
+							</div>
+						</div>
+					</div>
+
+					<div id="page7" class="page">
+						<div class="title">
+							<div class="alert alert-danger">Flash Player 전역보안설정</div>
+						</div>
+						<div class="help-pop-container">
+							<span class="label label-primary top">보안설정 5</span>
+							<div class="body-container">
+								<p>2. <span class="label label-warning">항상 묻기</span>을 선택한 경우</p>
+
+								<p class="p-body">폴더 찾아보기를 선택하면 로컬 시스템의 구조가 트리 메뉴로 나타나게 됩니다.</p><p class="p-body text-warning">본 검수용 콘텐츠가 위치한 로컬상의 디렉토리 (CD-ROM 드라이브 또는 다른 하드디스크의 특징 폴더)를 지정해 주십시오.</p>
+
+								<p class="player-img"><img src="./idx_common/idx_img/player6.png" class="img-rounded"/></p>
+							</div>
+						</div>
+					</div>
+
+					<div id="page8" class="page">
+						<div class="title">
+							<div class="alert alert-danger">Flash Player 전역보안설정</div>
+						</div>
+						<div class="help-pop-container">
+							<span class="label label-primary top">보안설정 6</span>
+							<div class="body-container">
+								<p>2. <span class="label label-warning">항상 묻기</span>을 선택한 경우</p>
+
+								<p class="p-body">신뢰할 수 있는 파일 및 폴더를 선택하면 하단 Flash Player 설정 관리자 하단에 선택한 파일 또는 폴더의 위치가 등록이 되며 Flash Player는 이 위치의 Flash를 신뢰하게 되어 보안 팝업 질문을 표시하지 않게 됩니다.</p>
+
+								<p class="player-img"><img src="./idx_common/idx_img/player7.png" class="img-rounded"/></p>
+							</div>
+						</div>
+					</div>
+
+					<div id="page9" class="page">
+						<div class="title">
+							<div class="alert alert-danger">Flash Player 전역보안설정 완료</div>
+						</div>
+						<div class="help-pop-container">
+							<span class="label label-primary top">전역보안설정 완료</span>
+							<div class="body-container">
+								<p>Flash Player의 전역 보안 설정이 완료되었습니다.
+									본 안내문 및 모든 웹브라우저를 종료한 후 인덱스 페이지를 다시 실행시키십시오.
+								</p>
+								<p class="text-warning">
+									감사합니다.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="pagination-div">
+						<ul class="pagination pagination-sm">
+							<li class=""><a href="" id="prev">Prev</a></li>
+							<li class=""><a href="" id="pagenum1">1</a></li>
+							<li class=""><a href="" id="pagenum2">2</a></li>
+							<li class=""><a href="" id="pagenum3">3</a></li>
+							<li class=""><a href="" id="pagenum4">4</a></li>
+							<li class=""><a href="" id="pagenum5">5</a></li>
+							<li class=""><a href="" id="pagenum6">6</a></li>
+							<li class=""><a href="" id="pagenum7">7</a></li>
+							<li class=""><a href="" id="pagenum8">8</a></li>
+							<li class=""><a href="" id="pagenum9">9</a></li>
+							<li class=""><a href="" id="next">Next</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="modal-footer">
+			    <button class="btn btn-primary btn-sm" data-dismiss="modal" aria-hidden="true">닫기</button>
+			  </div>
+		  </div>
+		</div>
+	</div>
+
+	<div id="alert-message">
+		<div class="alert-box">
+			첫 페이지 입니다.
+		</div>
+	</div>
+	<script src="./idx_common/js/jquery-1.11.2.min.js"></script>
+	<script src="./idx_common/bootstrap/js/bootstrap.js"></script>
+	<script src="./idx_common/js/jquery.shuffleLetters.js"></script>
+	<script src="./idx_common/js/idx_common.js"></script>
+
+</body>
+
+</html>
